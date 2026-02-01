@@ -41,3 +41,7 @@ print(my_car_2.get_max_speed())
 my_car_2.set_max_speed(150)
 
 print(my_car_2.get_max_speed())
+
+my_car_2.__max_speed = 300
+
+print(my_car_2.get_max_speed())
